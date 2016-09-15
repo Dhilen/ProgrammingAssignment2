@@ -1,4 +1,4 @@
-Programming Assignment 2: Lexical Scoping
+##Programming Assignment 2: Lexical Scoping
 
 For the Coursera course R Programming
 
@@ -6,13 +6,13 @@ The following code demonstrates how to use the assessment3.R R script.
 
 Lines starting with # are simple comments, lines starting with #> are things printed in the output.
 
-# read the R script
-# replace the "path/to/file" with the directory you save the file into
-# or you can read the file directly from the web
-source("path/to/file/assessment3.R")
+ read the R script
+ replace the "path/to/file" with the directory you save the file into
+ or you can read the file directly from the web
+ source("path/to/file/assessment3.R")
 
-# create a *square* matrix (because `solve` only handles square matrices)
-# create the matrix during the call of makeCacheMatrix()
+ create a *square* matrix (because `solve` only handles square matrices)
+ create the matrix during the call of makeCacheMatrix()
 a <- makeCacheMatrix( matrix(c(1,2,12,13), nrow = 2, ncol = 2) );
 
 summary(a);
