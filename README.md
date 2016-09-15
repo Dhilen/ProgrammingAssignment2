@@ -54,6 +54,7 @@ summary(a);
  create a square matrix (reason `solve` only handles square matrices )
 a$setMatrix( matrix(c(1,2,12,13), nrow = 2, ncol = 2) );
 a$getMatrix();
+<!-- -->
                      [,1] [,2]
                 [,1]   1     12
                 [,2]   2     13
